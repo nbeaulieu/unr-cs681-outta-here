@@ -2683,7 +2683,7 @@ MonoBehaviour:
   speedDampTime: 0.1
   slowingSpeed: 0.175
   turnSpeedThreshold: 0.5
-  inputHoldDelay: 0.5
+  inputHoldDelay: 0
 --- !u!114 &114000014274399210
 MonoBehaviour:
   m_ObjectHideFlags: 0
