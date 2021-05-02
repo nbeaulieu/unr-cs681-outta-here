@@ -155,6 +155,7 @@ public class PlayerMovement : MonoBehaviour
     // This function is called by the EventTrigger on the scene's ground when it is clicked on.
     public void OnGroundClick(BaseEventData data)
     {
+        Debug.Log("OnGroundClick");
         // If the handle input flag is set to false then do nothing.
         if(!handleInput)
             return;
