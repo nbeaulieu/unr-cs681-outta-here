@@ -40,8 +40,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1394219079320280362}
   - component: {fileID: 1394219079310336446}
-  - component: {fileID: 1394219079310319164}
-  - component: {fileID: 1394219079320000183}
+  - component: {fileID: 3431481625786658309}
+  - component: {fileID: 8544277207081340876}
   m_Layer: 0
   m_Name: MapInteractable
   m_TagString: Untagged
@@ -89,14 +89,27 @@ MonoBehaviour:
           m_MethodName: OnInteractableClick
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 1394219079310319164}
+            m_ObjectArgument: {fileID: 8544277207081340876}
             m_ObjectArgumentAssemblyTypeName: Interactable, Assembly-CSharp
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
---- !u!114 &1394219079310319164
+--- !u!65 &3431481625786658309
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394219079320000182}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2, z: 0.5}
+  m_Center: {x: 0, y: 0.89, z: 0}
+--- !u!114 &8544277207081340876
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109,22 +122,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionLocation: {fileID: 1394219079320314154}
-  conditionCollections:
-  - {fileID: 0}
-  defaultReactionCollection: {fileID: 1394219079310292120}
---- !u!65 &1394219079320000183
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1394219079320000182}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.98, y: 0.15, z: 0.67}
-  m_Center: {x: -0.06, y: 0.31, z: 0}
+  conditionCollections: []
+  defaultReactionCollection: {fileID: 8779237011780943797}
 --- !u!1 &1394219079320190084
 GameObject:
   m_ObjectHideFlags: 0
@@ -134,7 +133,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1394219079320230870}
-  - component: {fileID: 1394219079310292120}
+  - component: {fileID: 8779237011780943797}
   m_Layer: 0
   m_Name: DefaultReaction
   m_TagString: Untagged
@@ -156,7 +155,7 @@ Transform:
   m_Father: {fileID: 1394219079320280362}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1394219079310292120
+--- !u!114 &8779237011780943797
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,8 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fc7ecfe98531f2429694b8c81a6748a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reactions:
-  - {fileID: 0}
+  reactions: []
 --- !u!1 &6164126182100419350
 GameObject:
   m_ObjectHideFlags: 0
