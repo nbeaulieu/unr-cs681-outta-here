@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 95618121}
-  m_IndirectSpecularColor: {r: 0.80100626, g: 0.70762783, b: 0.6230808, a: 1}
+  m_IndirectSpecularColor: {r: 0.8010147, g: 0.70763886, b: 0.6230901, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3006,6 +3006,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c74caa742791864f9c678287121e6c9, type: 3}
+--- !u!114 &270382983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: BuiltCamp
+  satisfied: 1
+  hash: -545975599
 --- !u!4 &273366794 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 442488, guid: ec78ebca7517fb745a45a931cb06d2bd,
@@ -3502,6 +3517,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1875213603}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &325037883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4900350095ceff24fbe8c1ac5f1e17c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: NexlLevel
+  requiredConditions:
+  - {fileID: 270382983}
+  reactionCollection: {fileID: 1788573889}
 --- !u!4 &330622013 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 442488, guid: ec78ebca7517fb745a45a931cb06d2bd,
@@ -6626,6 +6657,47 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 674187122}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &597310855
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4570576684191950, guid: 49214a880c11fd945983810825957a78, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570576684191950, guid: 49214a880c11fd945983810825957a78, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -20.835
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570576684191950, guid: 49214a880c11fd945983810825957a78, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.899
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570576684191950, guid: 49214a880c11fd945983810825957a78, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 38.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570576684191950, guid: 49214a880c11fd945983810825957a78, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570576684191950, guid: 49214a880c11fd945983810825957a78, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570576684191950, guid: 49214a880c11fd945983810825957a78, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570576684191950, guid: 49214a880c11fd945983810825957a78, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 49214a880c11fd945983810825957a78, type: 3}
 --- !u!114 &599415755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11804,6 +11876,21 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 405151556}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &966739695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Build a camp before using the map
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  delay: 0
 --- !u!114 &969949703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18094,6 +18181,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec78ebca7517fb745a45a931cb06d2bd, type: 3}
+--- !u!114 &1521427245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24dc6b17b276d6948903ade30dec71eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Enviro-NewScene2
+  startingPointInLoadedScene: StartingPoint
+  playerSaveData: {fileID: 11400000, guid: 55d72825bf06cf44e9cbc1b37812cc6f, type: 2}
 --- !u!4 &1523394458 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 442488, guid: ec78ebca7517fb745a45a931cb06d2bd,
@@ -21193,7 +21295,28 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8544277207081340876, guid: c3880da9c1e3c45d881689aed2add1ff,
+        type: 3}
+      propertyPath: conditionCollections.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544277207081340876, guid: c3880da9c1e3c45d881689aed2add1ff,
+        type: 3}
+      propertyPath: conditionCollections.Array.data[0]
+      value: 
+      objectReference: {fileID: 325037883}
+    - target: {fileID: 8779237011780943797, guid: c3880da9c1e3c45d881689aed2add1ff,
+        type: 3}
+      propertyPath: reactions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8779237011780943797, guid: c3880da9c1e3c45d881689aed2add1ff,
+        type: 3}
+      propertyPath: reactions.Array.data[0]
+      value: 
+      objectReference: {fileID: 966739695}
+    m_RemovedComponents:
+    - {fileID: 6164126182100419348, guid: c3880da9c1e3c45d881689aed2add1ff, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c3880da9c1e3c45d881689aed2add1ff, type: 3}
 --- !u!4 &1788573887 stripped
 Transform:
@@ -21201,6 +21324,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1788573886}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788573888 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6164126182100419350, guid: c3880da9c1e3c45d881689aed2add1ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788573886}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1788573889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788573888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fc7ecfe98531f2429694b8c81a6748a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reactions:
+  - {fileID: 1521427245}
 --- !u!1001 &1796162660
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25903,6 +26046,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CampsiteInteractable
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027850087258641277, guid: 7a7b73636e6474d6982fb4d384b1cd9a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.083
+      objectReference: {fileID: 0}
+    - target: {fileID: 5701797171515234106, guid: 7a7b73636e6474d6982fb4d384b1cd9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5702883574778220423, guid: 7a7b73636e6474d6982fb4d384b1cd9a,
         type: 3}
