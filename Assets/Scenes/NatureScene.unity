@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 95618121}
-  m_IndirectSpecularColor: {r: 0.80100626, g: 0.70762783, b: 0.6230808, a: 1}
+  m_IndirectSpecularColor: {r: 0.8010147, g: 0.70763886, b: 0.6230901, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8008,6 +8008,21 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 889134302}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &698768842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: PickedUpCoin
+  satisfied: 0
+  hash: 514706441
 --- !u!4 &702564064 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 442488, guid: ec78ebca7517fb745a45a931cb06d2bd,
@@ -15025,6 +15040,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec78ebca7517fb745a45a931cb06d2bd, type: 3}
+--- !u!114 &1232721530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f8a149ea5a3aa4583dc1cab3334cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 'You need to build a camp first '
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  delay: 0
 --- !u!1 &1233582146
 GameObject:
   m_ObjectHideFlags: 0
@@ -16924,6 +16954,22 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1310744903}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1391406767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4900350095ceff24fbe8c1ac5f1e17c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: New condition collection
+  requiredConditions:
+  - {fileID: 698768842}
+  reactionCollection: {fileID: 0}
 --- !u!4 &1391953855 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 445910, guid: c63ea781a273235439e583799176c846,
@@ -21127,10 +21173,45 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340859977}
     m_Modifications:
+    - target: {fileID: 1394219079310336446, guid: c3880da9c1e3c45d881689aed2add1ff,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 912050364}
+    - target: {fileID: 1394219079310336446, guid: c3880da9c1e3c45d881689aed2add1ff,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnInteractableClick
+      objectReference: {fileID: 0}
     - target: {fileID: 1394219079320000182, guid: c3880da9c1e3c45d881689aed2add1ff,
         type: 3}
       propertyPath: m_Name
       value: MapInteractable
+      objectReference: {fileID: 0}
+    - target: {fileID: 1394219079320000183, guid: c3880da9c1e3c45d881689aed2add1ff,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 3.1055532
+      objectReference: {fileID: 0}
+    - target: {fileID: 1394219079320000183, guid: c3880da9c1e3c45d881689aed2add1ff,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.5154998
+      objectReference: {fileID: 0}
+    - target: {fileID: 1394219079320000183, guid: c3880da9c1e3c45d881689aed2add1ff,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -0.25722992
+      objectReference: {fileID: 0}
+    - target: {fileID: 1394219079320000183, guid: c3880da9c1e3c45d881689aed2add1ff,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.9927598
+      objectReference: {fileID: 0}
+    - target: {fileID: 1394219079320000183, guid: c3880da9c1e3c45d881689aed2add1ff,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 0.00000005774111
       objectReference: {fileID: 0}
     - target: {fileID: 1394219079320280362, guid: c3880da9c1e3c45d881689aed2add1ff,
         type: 3}
@@ -21187,7 +21268,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1394219079310319164, guid: c3880da9c1e3c45d881689aed2add1ff, type: 3}
+    - {fileID: 1394219079310292120, guid: c3880da9c1e3c45d881689aed2add1ff, type: 3}
+    - {fileID: 6164126182100419348, guid: c3880da9c1e3c45d881689aed2add1ff, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c3880da9c1e3c45d881689aed2add1ff, type: 3}
 --- !u!4 &1788573887 stripped
 Transform:
@@ -21195,6 +21279,74 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1788573886}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788573888 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6164126182100419350, guid: c3880da9c1e3c45d881689aed2add1ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788573886}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788573889 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1394219079320190084, guid: c3880da9c1e3c45d881689aed2add1ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788573886}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1788573890 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1394219079320314154, guid: c3880da9c1e3c45d881689aed2add1ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788573886}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788573891 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1394219079320000182, guid: c3880da9c1e3c45d881689aed2add1ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788573886}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1788573892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788573888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fc7ecfe98531f2429694b8c81a6748a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reactions:
+  - {fileID: 2061699277}
+--- !u!114 &1788573893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788573889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fc7ecfe98531f2429694b8c81a6748a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reactions:
+  - {fileID: 1232721530}
+--- !u!114 &1788573894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788573891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d85941078afdf3244b2a1ae50fea256c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionLocation: {fileID: 1788573890}
+  conditionCollections:
+  - {fileID: 1391406767}
+  defaultReactionCollection: {fileID: 0}
 --- !u!1001 &1796162660
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24453,6 +24605,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec78ebca7517fb745a45a931cb06d2bd, type: 3}
+--- !u!114 &2061699277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24dc6b17b276d6948903ade30dec71eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Enviro-NewScene2
+  startingPointInLoadedScene: StartingPoint
+  playerSaveData: {fileID: 11400000, guid: 55d72825bf06cf44e9cbc1b37812cc6f, type: 2}
 --- !u!4 &2065551150 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 429508, guid: 9c74caa742791864f9c678287121e6c9,
