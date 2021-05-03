@@ -60,6 +60,21 @@ MonoBehaviour:
   description: BuiltCamp
   satisfied: 0
   hash: -545975599
+--- !u!114 &-1331164189115129337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasAxe
+  m_EditorClassIdentifier: 
+  description: HasAxe
+  satisfied: 0
+  hash: 611842547
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91,6 +106,9 @@ MonoBehaviour:
   - {fileID: 882308871964829385}
   - {fileID: -8886007469318245867}
   - {fileID: -3412984689707872451}
+  - {fileID: 5229458999744336430}
+  - {fileID: 3489637353737409067}
+  - {fileID: -1331164189115129337}
 --- !u!114 &114000010533473472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -256,6 +274,21 @@ MonoBehaviour:
   description: PickedUpFirewood
   satisfied: 0
   hash: 225918579
+--- !u!114 &3489637353737409067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasShovel
+  m_EditorClassIdentifier: 
+  description: HasShovel
+  satisfied: 0
+  hash: 242079953
 --- !u!114 &4431109921097399329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,6 +304,21 @@ MonoBehaviour:
   description: HasCooler
   satisfied: 0
   hash: 1411718559
+--- !u!114 &5229458999744336430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasLumber
+  m_EditorClassIdentifier: 
+  description: HasLumber
+  satisfied: 0
+  hash: 800376296
 --- !u!114 &7003132902447793773
 MonoBehaviour:
   m_ObjectHideFlags: 0

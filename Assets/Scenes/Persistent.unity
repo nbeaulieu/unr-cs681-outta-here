@@ -713,8 +713,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   faderCanvasGroup: {fileID: 1708470355}
   fadeDuration: 1
-  anotherSceneName: NatureScene
-  startingSceneName: NatureScene
+  anotherSceneName: Enviro-NewScene2
+  startingSceneName: Enviro-NewScene2
   initialStartingPositionName: StartingPoint
   playerSaveData: {fileID: 11400000, guid: 55d72825bf06cf44e9cbc1b37812cc6f, type: 2}
 --- !u!4 &353158847
@@ -2185,7 +2185,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
