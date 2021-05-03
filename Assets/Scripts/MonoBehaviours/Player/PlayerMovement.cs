@@ -59,6 +59,23 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
+    public void ReturnToStart()
+    {
+        // Load the starting position from the save data and find the transform from the starting position's name.
+        string startingPositionName = "";
+        playerSaveData.Load(startingPositionKey, ref startingPositionName);
+
+        Transform startingPosition = StartingPosition.FindStartingPosition(startingPositionName);
+
+        // Set the player's position and rotation based on the starting position.
+        transform.position = startingPosition.position;
+        transform.rotation = startingPosition.rotation;
+
+        // Set the initial destination as the player's current position.
+        destinationPosition = transform.position;
+        agent.SetDestination(destinationPosition);
+    }
+
     private void OnAnimatorMove()
     {
         // Set the velocity of the nav mesh agent (which is moving the player) based on the speed that the animator would move the player.
@@ -155,7 +172,6 @@ public class PlayerMovement : MonoBehaviour
     // This function is called by the EventTrigger on the scene's ground when it is clicked on.
     public void OnGroundClick(BaseEventData data)
     {
-        Debug.Log("OnGroundClick");
         // If the handle input flag is set to false then do nothing.
         if(!handleInput)
             return;
