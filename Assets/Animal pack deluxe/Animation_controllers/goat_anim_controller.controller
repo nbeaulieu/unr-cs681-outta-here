@@ -308,8 +308,7 @@ AnimatorState:
   m_Name: attack
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: 1101149056315805752}
+  m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -337,10 +336,9 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101517227605440320}
-  - {fileID: 1101686976006657134}
+  - {fileID: 1101028432869822040}
   - {fileID: 1101564966156850436}
   - {fileID: 1101646171832874870}
-  - {fileID: 1101028432869822040}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -448,7 +446,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1102389665213222674}
-    m_Position: {x: 48, y: 216, z: 0}
+    m_Position: {x: 50, y: 220, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102971307500090246}
     m_Position: {x: 348, y: 216, z: 0}

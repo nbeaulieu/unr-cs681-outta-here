@@ -23598,6 +23598,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MapInteractable
       objectReference: {fileID: 0}
+    - target: {fileID: 1394219079320000182, guid: c3880da9c1e3c45d881689aed2add1ff,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1394219079320280362, guid: c3880da9c1e3c45d881689aed2add1ff,
         type: 3}
       propertyPath: m_RootOrder
@@ -28914,7 +28919,7 @@ PrefabInstance:
     - target: {fileID: 5701797171515234106, guid: 7a7b73636e6474d6982fb4d384b1cd9a,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5702883574778220423, guid: 7a7b73636e6474d6982fb4d384b1cd9a,
         type: 3}

@@ -713,8 +713,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   faderCanvasGroup: {fileID: 1708470355}
   fadeDuration: 1
-  anotherSceneName: Enviro-NewScene2
-  startingSceneName: Enviro-NewScene2
+  anotherSceneName: NatureScene
+  startingSceneName: NatureScene
   initialStartingPositionName: StartingPoint
   playerSaveData: {fileID: 11400000, guid: 55d72825bf06cf44e9cbc1b37812cc6f, type: 2}
 --- !u!4 &353158847
@@ -2114,7 +2114,7 @@ GameObject:
   - component: {fileID: 8639301102182478584}
   - component: {fileID: 8639301102174932746}
   m_Layer: 5
-  m_Name: BackgroundImage
+  m_Name: LostButtonImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2133,7 +2133,7 @@ GameObject:
   - component: {fileID: 8639301102168952847}
   - component: {fileID: 8639301102168952846}
   m_Layer: 5
-  m_Name: Lost
+  m_Name: IamLost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
