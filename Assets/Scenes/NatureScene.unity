@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 95618121}
-  m_IndirectSpecularColor: {r: 0.80100626, g: 0.70762783, b: 0.6230808, a: 1}
+  m_IndirectSpecularColor: {r: 0.8010147, g: 0.70763886, b: 0.6230901, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1295,6 +1295,21 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 586451852}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &101584141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c32f1270758a64ba4bc71dbf7e498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 1.5
+  gameObject: {fileID: 1788573890}
+  activeState: 1
 --- !u!1001 &102072798
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23707,6 +23722,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reactions:
   - {fileID: 1521427245}
+--- !u!1 &1788573890 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1394219079320000182, guid: c3880da9c1e3c45d881689aed2add1ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 1788573886}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1791663109
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28923,6 +28944,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5702883574778220423, guid: 7a7b73636e6474d6982fb4d384b1cd9a,
         type: 3}
+      propertyPath: reactions.Array.size
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 5702883574778220423, guid: 7a7b73636e6474d6982fb4d384b1cd9a,
+        type: 3}
       propertyPath: reactions.Array.data[0]
       value: 
       objectReference: {fileID: 877679708}
@@ -29026,6 +29052,11 @@ PrefabInstance:
       propertyPath: reactions.Array.data[20]
       value: 
       objectReference: {fileID: 880071675}
+    - target: {fileID: 5702883574778220423, guid: 7a7b73636e6474d6982fb4d384b1cd9a,
+        type: 3}
+      propertyPath: reactions.Array.data[21]
+      value: 
+      objectReference: {fileID: 101584141}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a7b73636e6474d6982fb4d384b1cd9a, type: 3}
 --- !u!4 &6074308962383460142 stripped
