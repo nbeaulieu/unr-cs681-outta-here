@@ -713,8 +713,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   faderCanvasGroup: {fileID: 1708470355}
   fadeDuration: 1
-  anotherSceneName: Enviro-NewScene2
-  startingSceneName: Enviro-NewScene2
+  anotherSceneName: NatureScene
+  startingSceneName: NatureScene
   initialStartingPositionName: StartingPoint
   playerSaveData: {fileID: 11400000, guid: 55d72825bf06cf44e9cbc1b37812cc6f, type: 2}
 --- !u!4 &353158847
@@ -1541,7 +1541,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1713425964
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2008,7 +2008,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2011589420
 MonoBehaviour:
   m_ObjectHideFlags: 0
