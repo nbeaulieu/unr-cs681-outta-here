@@ -1,4 +1,4 @@
-Music: “Happy Tribe”, from PlayOnLoop.com
-Licensed under Creative Commons by Attribution 4.0
+This game was developed as a project for UNR CS681 and was based originally on the Unity Adventure Game templates. All assets have been licensed under the Unity Asset Store agreement.
 
-Cooler - <a href="https://www.freepik.com/vectors/winter">Winter vector created by brgfx - www.freepik.com</a>
+
+https://simmer.io/@nbeaulieu/outta-here-final
