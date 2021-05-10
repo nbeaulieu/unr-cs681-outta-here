@@ -109,6 +109,7 @@ MonoBehaviour:
   - {fileID: 5229458999744336430}
   - {fileID: 3489637353737409067}
   - {fileID: -1331164189115129337}
+  - {fileID: 1390891718463530947}
 --- !u!114 &114000010533473472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,6 +260,21 @@ MonoBehaviour:
   description: PickedUpSleepingBag
   satisfied: 0
   hash: 931057919
+--- !u!114 &1390891718463530947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c14b7cdc8cc6347b3a5d48d05c9c85, type: 3}
+  m_Name: HasSaw
+  m_EditorClassIdentifier: 
+  description: HasSaw
+  satisfied: 0
+  hash: 1399609021
 --- !u!114 &1594320310000420173
 MonoBehaviour:
   m_ObjectHideFlags: 0
