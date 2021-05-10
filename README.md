@@ -3,3 +3,5 @@ This game was developed as a project for UNR CS681 and was based originally on t
 website: https://nbeaulieu.github.io/unr-cs681-outta-here/
 
 final game: https://simmer.io/@nbeaulieu/outta-here-final
+
+trailer: https://www.youtube.com/watch?v=5aGFQeOf8Gk
